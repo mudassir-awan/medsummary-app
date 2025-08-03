@@ -19,7 +19,7 @@
 
 ## 🚀 Live App
 
-[👉 Launch MedSummary App](https://your-app-link.streamlit.app)  
+[👉 Launch MedSummary App](https://medsummary.streamlit.app/)  
 *(Replace with your Streamlit Cloud link)*
 
 ---
