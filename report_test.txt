@@ -1,0 +1,21 @@
+Patient Name: John Doe  
+Age: 47  
+Date: 2025-07-10  
+
+Summary of Visit:
+Patient presented with fatigue, mild chest discomfort, and shortness of breath on exertion.
+
+Findings:
+- Blood Pressure: 142/90 mmHg
+- Heart Rate: 82 bpm
+- ECG: Normal sinus rhythm
+- Blood tests: Elevated LDL cholesterol
+
+Diagnosis:
+- Early stage hypertension
+- Hyperlipidemia
+
+Recommendations:
+- Start low-sodium diet
+- Begin statin therapy (Atorvastatin 10mg)
+- Schedule cardiology follow-up in 4 weeks

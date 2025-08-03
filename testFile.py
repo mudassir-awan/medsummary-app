@@ -1,0 +1,2 @@
+import streamlit as st
+st.write(st.secrets["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"])
