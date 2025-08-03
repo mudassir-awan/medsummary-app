@@ -1,109 +1,28 @@
-# HapTune: An Open-Source Visual Tool for Designing User-Defined Haptic Signals
+# 🩺 MedSummary App
 
-**HapTune** is an open-source visual authoring tool that enables no-code creation, editing, and export of mechanical haptic signals. It supports both low-frequency force profiles and high-frequency vibration waveforms, making it ideal for haptic feedback design, robotic control, and virtual texture rendering.
-
-![HapTune Demo](figs/CustomvibrationWaveform.PNG)
+**MedSummary** is a simple, AI-powered web tool that extracts and summarizes key information from medical reports. Built with Python and Streamlit, it helps doctors, patients, and caregivers understand complex health documents in plain language.
 
 ---
 
-## 🚀 Features
+## 🔍 Features
 
-* 🎛️ Visual, no-code interface for **creating and editing** haptic signal waveforms  
-* 🔁 Real-time **spline interpolation** and smoothing for precise curve shaping  
-* ⬇️ **Downsampling** of exisitng dense waveforms to simplify editing and manual tuning
-* 🎚️ Multi-frequency **vibration synthesis** using envelope-based amplitude modulation  
-* 📊 Live **frequency spectrum preview** using Fast Fourier transform (FFT)  
-* 📁 Import and export of waveform data in **Excel and CSV** formats  
-* 🔧 Export-ready signals for deployment on **various haptic and feedback actuators**  
-   (e.g., vibration motors, thermal modules, force-feedback systems, voice-coil actuators, electro-tactile displays)
-
-
-* 💡 Designed for **researchers, engineers, and UI/UX designers** working in haptics and robotics.
+- 📄 Upload PDF medical reports
+- 🤖 AI summarization using OpenAI's GPT model
+- ✅ Outputs include:
+  - Patient Condition
+  - Key Findings
+  - Suggested Treatment
+- 🌐 Easy-to-use interface (web-based)
+- 🧠 Powered by `gpt-3.5-turbo` for fast and cost-effective summaries
 
 ---
 
-## 📦 Installation
+## 🚀 Live App
 
-### 🔧 Requirements
-
-* Python 3.8+
-* pip
-
-### 🧪 Create a fresh environment (recommended)
-
-```bash
-conda create -n haptune_env python=3.8
-conda activate haptune_env
-```
-
-### 📥 Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### ▶️ Run HapTune
-
-```bash
-python haptune_main.py
-```
+[👉 Launch MedSummary App](https://your-app-link.streamlit.app)  
+*(Replace with your Streamlit Cloud link)*
 
 ---
 
-## 📂 Repository Structure
+## 🛠️ Project Structure
 
-```
-HapTune/
-├── .docs/                     # Internal development and authorship logs
-├── example_haptic_signals/    # Sample Excel/CSV profiles
-├── figs/                      # UI screenshots and plots
-├── haptune_main.py            # Main application entry point
-├── requirements.txt           # Required Python packages
-├── README.md                  # This file
-├── LICENSE                    # Apache 2.0 License
-├── AUTHORS.md                 # Credits and authorship
-```
-
----
-
-## 💡 Use Cases
-
-* Haptic rendering for **robotic arms**, **grippers**, or virtual manipulators  
-* Simulated **material textures** on touchscreens for surface perception studies  
-* Designing **button click waveforms** for realistic tactile feedback in devices  
-* Creating custom **thermal feedback signals** for heat flux simulation or transfer experiments  
-* Prototyping and evaluating **force-feedback interfaces** in automotive, VR, or assistive systems  
-* Teaching, research, or **experimentation in signal design and perceptual tuning**
-
-
----
-
-## 🌍 Citation / Demo Submission
-
-A demonstration of this tool has been submitted to **World Haptics Conference 2025**. For citation details, please contact the author or check the official publication (if accepted).
-
----
-
-## 📑 License
-
-HapTune is licensed under the **Apache License 2.0**. See the [LICENSE](LICENSE) file for full terms.
-
-> 🔒 **Intended Use Notice:**  
-> Although the software is Apache-licensed, it is primarily intended for **academic research and non-commercial applications**. For commercial use or licensing inquiries, please contact the author directly.
-
----
-## 👨‍🔬 Authors
-
-HapTune was developed by **[Mudassir Ibrahim Awan](https://scholar.google.com/citations?user=DJKWlwoAAAAJ)** to provide the haptics community with a no-code tool for rapid custom haptic signal design and testing.
-
-> 🧭 Acknowledgments:  
-> Special thanks to **[Prof. Seokhee Jeon](http://haptics.khu.ac.kr/jeon/)** for his guidance during the development phase of this tool.
-
----
-
-
-## ✉️ Contact
-
-For questions, suggestions, or feedback:
-
-Open an issue in the [GitHub Issues](https://github.com/mudassir-awan/HapTune/issues) section of this repository.
